@@ -1,5 +1,11 @@
 # @tanstack/db
 
+## 0.10.1
+
+### Patch Changes
+
+- Reduce the size of the B+ tree that `BTreeIndex` uses. Remove unused features from the vendored `sorted-btree` code and one insert branch that cannot run. Public behavior does not change. The full `@tanstack/db` entry is about 1.4 KB smaller when minified, and about 455 B smaller with gzip. ([#1946](https://github.com/TanStack/db/pull/1946))
+
 ## 0.10.0
 
 ### Minor Changes

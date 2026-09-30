@@ -1,5 +1,12 @@
 # @tanstack/capacitor-db-sqlite-persistence
 
+## 0.2.25
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @tanstack/db-sqlite-persistence-core@0.3.1
+
 ## 0.2.24
 
 ### Patch Changes
